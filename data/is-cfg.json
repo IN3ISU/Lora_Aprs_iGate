@@ -1,0 +1,57 @@
+{
+	"callsign":"IN3ISU-14",
+	"wifi":
+	{
+		"active":true,
+		"AP": [
+			{ "SSID":"FASTWEB-bpR6Kc", "password":"WnMqtAE7Mt" }
+		]
+	},
+	"beacon":
+	{
+		"message":"LoRa iGATE IN3ISU Giovanni",
+		"position":
+		{
+			"latitude":46.2421,
+			"longitude":11.2101
+		}
+	},
+	"aprs_is":
+	{
+		"active":true,
+		"password":"23216",
+		"server":"euro.aprs2.net",
+		"port":14580,
+		"beacon":true,
+		"beacon_timeout":15
+	},
+	"digi":
+	{
+		"active":false,
+		"forward_timeout":5,
+		"beacon":true,
+		"beacon_timeout":30
+	},
+	"lora":
+	{
+		"frequency_rx":433775000,
+		"frequency_tx":433775000,
+		"power":20,
+		"spreading_factor":12,
+		"signal_bandwidth":125000,
+		"coding_rate4":5
+	},
+	"display":
+	{
+		"always_on": true,
+		"timeout":10,
+		"overwrite_pin":0
+	},
+	"ftp":
+	{
+		"active":false,
+		"user": [
+			{ "name":"ftp", "password":"ftp" }
+		]
+	}
+}
